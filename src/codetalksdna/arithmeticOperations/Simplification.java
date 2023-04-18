@@ -13,8 +13,8 @@ public class Simplification {
         int mul1 = num6 * num7;
         int mul2 = num2 * num3;
         int sub2 = num1 - mul2;
-
-        int total = sub2 + sub1 - mul1;
-        System.out.println("Simplification of the given equation is :" + "" + total);
+        int total1 = num1 - num2 * num3 + (num4 - num5) - num6 * num7;
+        int total2 = sub2 + sub1 - mul1;
+        System.out.println("Simplification of the given equation in one Way:" + "" + total1 + " " + "In Another way is " + "" + total2);
     }
 }
