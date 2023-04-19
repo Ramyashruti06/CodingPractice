@@ -9,7 +9,7 @@ public class MultiplicationOfNumbers {
 }
 
 class Calculation {
-    public static int multiplyingDigits() {
+    public int multiplyingDigits() {
         int number1 = 10;
         int number2 = 15;
         int mul = number1 * number2;
