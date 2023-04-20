@@ -1,4 +1,4 @@
-package codetalksdna.StringClass;
+package codetalksdna.StringClassMethodCalls;
 
 public class ConvertStringToUpperCase {
     public static void main(String[] args) {
