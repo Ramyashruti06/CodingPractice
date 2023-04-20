@@ -2,11 +2,14 @@ package codetalksdna.arithmeticOperations;
 
 public class Simplification {
     public static void main(String[] args) {
-        Equation equation = new Equation();
+        Solution solution = new Solution();
+        int total1 = solution.simplifyingsolution();
+        int total2 = solution.simplifyingsolution();
 
 
-        class Equation {
-            public static int simplifyingequation() {
+
+        class Solution {
+            public static int simplifyingsolution() {
                 int num1 = 80;
                 int num2 = 3;
                 int num3 = 13;
