@@ -3,8 +3,8 @@ package codetalksdna.StringClass;
 public class BasicStringClassExample {
     public static void main(String[] args) {
         StringExample stringExample = new StringExample();
-        String s = stringExample.getInUpper();
-        System.out.println("My Result Set is::" + "" + s);
+        String str = stringExample.getInUpper();
+        System.out.println("My Result Set is::" + "" + str);
     }
 }
 
