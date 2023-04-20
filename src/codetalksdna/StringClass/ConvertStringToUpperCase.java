@@ -1,14 +1,14 @@
 package codetalksdna.StringClass;
 
-public class BasicStringClassExample {
+public class ConvertStringToUpperCase {
     public static void main(String[] args) {
-        StringExample stringExample = new StringExample();
-        String str = stringExample.getInUpper();
+        LogicForConvertStringToUpperCase convertStringToUpperCase = new LogicForConvertStringToUpperCase();
+        String str = convertStringToUpperCase.getInUpper();
         System.out.println("My Result Set is::" + "" + str);
     }
 }
 
-class StringExample {
+class LogicForConvertStringToUpperCase {
     public String getInUpper() {
         String str = "kramyashruti";
         String s = str.toUpperCase();
