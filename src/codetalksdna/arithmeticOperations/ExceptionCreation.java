@@ -2,6 +2,10 @@ package codetalksdna.arithmeticOperations;
 
 public class ExceptionCreation {
     public static void main(String[] args) {
+        handlingException();
+    }
+
+    private static void handlingException() {
         int number = 10;
         int result = 0;
         try {
