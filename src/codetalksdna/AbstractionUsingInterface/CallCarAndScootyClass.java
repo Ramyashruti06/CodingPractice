@@ -1,4 +1,4 @@
-package codetalksdna.AbsctractionInterface;
+package codetalksdna.AbstractionUsingInterface;
 
 public class CallCarAndScootyClass {
     public static void main(String[] args) {

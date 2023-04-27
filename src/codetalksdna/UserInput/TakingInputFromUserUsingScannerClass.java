@@ -3,7 +3,7 @@ package codetalksdna.UserInput;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ScannerUserInputAddition {
+public class TakingInputFromUserUsingScannerClass{
     public static void main(String[] args) throws IOException {
         Numbers number = new Numbers();
         int sum = number.sumOfNumber();

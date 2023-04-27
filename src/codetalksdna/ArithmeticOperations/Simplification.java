@@ -1,4 +1,4 @@
-package codetalksdna.arithmeticOperations;
+package codetalksdna.ArithmeticOperations;
 
 public class Simplification {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package codetalksdna.AbsctractionAbstractClass;
+package codetalksdna.AbstractionUsingAbstractClass;
 
 public abstract class Vehicle {
     public abstract void start();

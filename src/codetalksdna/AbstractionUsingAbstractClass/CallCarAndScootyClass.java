@@ -1,4 +1,4 @@
-package codetalksdna.AbsctractionAbstractClass;
+package codetalksdna.AbstractionUsingAbstractClass;
 
 public class CallCarAndScootyClass {
     public static void main(String[] args) {

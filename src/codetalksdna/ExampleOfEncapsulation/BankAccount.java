@@ -1,4 +1,4 @@
-package codetalksdna.EncapulationExample;
+package codetalksdna.ExampleOfEncapsulation;
 
 public class BankAccount {
     //Data is hided.

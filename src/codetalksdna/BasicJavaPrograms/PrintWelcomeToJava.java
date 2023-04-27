@@ -1,4 +1,4 @@
-package codetalksdna.basicJavaPrograms;
+package codetalksdna.BasicJavaPrograms;
 
 public class PrintWelcomeToJava {
     public static void main(String[] args) {

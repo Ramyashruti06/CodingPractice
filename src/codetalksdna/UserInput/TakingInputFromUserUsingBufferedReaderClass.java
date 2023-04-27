@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class UserInputAddition {
+public class TakingInputFromUserUsingBufferedReaderClass {
     public static void main(String[] args) throws IOException {
         Number number = new Number();
         int sum = number.sumOfNumber();
