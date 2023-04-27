@@ -1,10 +1,11 @@
 package codetalksdna.EncapulationExample;
 
 public class BankAccount {
-    //Data is hided
+    //Data is hided.
     private int bankAccountNumber;
     private int bankBalance;
 
+    //Code acting on the variables.
     public int getBankAccountNumber() {
         return bankAccountNumber;
     }
