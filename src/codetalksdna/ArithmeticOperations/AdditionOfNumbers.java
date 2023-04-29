@@ -2,13 +2,13 @@ package codetalksdna.ArithmeticOperations;
 
 public class AdditionOfNumbers {
     public static void main(String[] args) {
-        Number number = new Number();
+        Numbers number = new Numbers();
         int sum = number.sumOfNumber();
         System.out.println("The Sum of Two Digit is::" + sum);
     }
 }
 
-class Number {
+class Numbers {
     public int sumOfNumber() {
         int number1 = 10;
         int number2 = 20;
