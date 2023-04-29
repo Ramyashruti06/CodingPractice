@@ -5,7 +5,7 @@ public class BankAccount {
     private int bankAccountNumber;
     private int bankBalance;
 
-    //Code acting on the variables.
+    //Code acting on the variables or Data.
     public int getBankAccountNumber() {
         return bankAccountNumber;
     }
