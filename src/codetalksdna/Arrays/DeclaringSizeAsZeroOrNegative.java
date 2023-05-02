@@ -8,6 +8,6 @@ public class DeclaringSizeAsZeroOrNegative {
         System.out.println("Array with Size 0::" + " " + Arrays.toString(number));
 
         int[] numbers = new int[-1];
-        System.out.println("Array with Size Negative::" + " " + Arrays.toString(number));
+        System.out.println("Array with Size Negative::" + " " + Arrays.toString(numbers));
     }
 }
