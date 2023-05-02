@@ -1,4 +1,4 @@
-package codetalksdna.Arrays;
+package codetalksdna.Arrays.OneDArrays;
 
 public class SimpleArrayExample{
     public static void main(String[] args) {

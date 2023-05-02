@@ -1,4 +1,4 @@
-package codetalksdna.Arrays;
+package codetalksdna.Arrays.OneDArrays;
 
 import java.util.Arrays;
 
