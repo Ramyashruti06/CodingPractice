@@ -13,8 +13,9 @@ public class SubtractionOfMatrix {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < column; j++) {
                 subtractionOfMatrix[i][j] = matrix1[i][j] - matrix2[i][j];
+                System.out.print(subtractionOfMatrix[i][j] + " ");
             }
+            System.out.println();
         }
-        System.out.println(Arrays.deepToString(subtractionOfMatrix));
     }
 }

@@ -1,7 +1,5 @@
 package codetalksdna.Arrays.TwoDArrays;
 
-import java.util.Arrays;
-
 // Revision Required.
 public class MultiplicationOfMatrix {
     public static void main(String[] args) {
@@ -18,6 +16,12 @@ public class MultiplicationOfMatrix {
                 }
             }
         }
-        System.out.println(Arrays.deepToString(multiplicationOfMatrix));
+        System.out.println("Product Matrix");
+        for (int i = 0; i < row1; i++) {
+            for (int j = 0; j < col1; j++) {
+                System.out.print(multiplicationOfMatrix[i][j] + " ");
+            }
+            System.out.print("\n");
+        }
     }
 }

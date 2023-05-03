@@ -13,8 +13,10 @@ public class SumOfMatrix {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < column; j++) {
                 sumOfMatrix[i][j] = matrix1[i][j] + matrix2[i][j];
+                System.out.print(sumOfMatrix[i][j] + " ");
             }
+            System.out.println();
         }
-        System.out.println(Arrays.deepToString(sumOfMatrix));
     }
 }
+
