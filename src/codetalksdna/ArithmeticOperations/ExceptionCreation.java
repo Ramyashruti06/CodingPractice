@@ -1,4 +1,4 @@
-package codetalksdna.ArithmeticOperations;
+package codetalksdna.arithmeticOperations;
 
 public class ExceptionCreation {
     public static void main(String[] args) {
