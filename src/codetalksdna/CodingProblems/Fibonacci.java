@@ -5,16 +5,14 @@ import java.util.Scanner;
 public class Fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a value : ");
+        System.out.println("Enter a value till which you require to print the series: ");
         int n = sc.nextInt();
-        int FirstTerm = 0, SecondTerm = 1;
-        for (int i = 0; i <= n; i++) {
-            System.out.print(FirstTerm + ",");
-            int NextTerm = FirstTerm + SecondTerm;
-            FirstTerm = SecondTerm;
-            SecondTerm = NextTerm;
+        int firstTerm, secondTerm = 0, nextTerm = 1;
+        for (int i = 1; i <= n; i++) {
+            firstTerm = secondTerm;
+            secondTerm = nextTerm;
+            nextTerm = firstTerm + secondTerm;
+            System.out.print(firstTerm + " ");
         }
-        //System.out.println("The output of fibonacci series is : " + SecondTerm);
-
     }
 }
