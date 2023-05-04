@@ -7,12 +7,12 @@ public class Fibonacci {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a value till which you require to print the series::?");
         int n = sc.nextInt();
-        int firstTerm, secondTerm = 0, nextTerm = 1;
+        int number1 = 0, number2 = 1;
         for (int i = 1; i <= n; i++) {
-            firstTerm = secondTerm;
-            secondTerm = nextTerm;
-            nextTerm = firstTerm + secondTerm;
-            System.out.print(firstTerm + " ");
+            System.out.print(number1 + " ");
+            int sum = number1 + number2;
+            number1 = number2;
+            number2 = sum;
         }
     }
 }
