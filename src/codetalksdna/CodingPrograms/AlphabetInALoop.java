@@ -9,7 +9,6 @@ public class AlphabetInALoop {
         System.out.println(" ");
         for (alphabet = 'a'; alphabet <= 'z'; alphabet++) {
             System.out.print(alphabet + " ");
-
         }
     }
 }
