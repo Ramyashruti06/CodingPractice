@@ -2,7 +2,7 @@ package codetalksdna.ExceptionClassPrograms;
 
 import java.util.Scanner;
 
-public class ThrowKeyword {
+public class ThrowYoungAgeException {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Age of the Candidate");

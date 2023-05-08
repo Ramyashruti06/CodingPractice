@@ -4,7 +4,7 @@ import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class SQLException {
+public class ThrowsSQLException {
 
     static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
     static final String USER = "guest";
