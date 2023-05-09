@@ -5,7 +5,7 @@ public class AvgUsingArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Double[] num = new Double[6];
-        Double sum = 0;
+        double sum = 0.0d;
         num[0] = sc.nextDouble();
         num[1] = sc.nextDouble();
         num[2] = sc.nextDouble();
@@ -15,7 +15,7 @@ public class AvgUsingArray {
         for(Double n : num ) {
             sum = sum + n;
         }
-        Double avg = sum / n;
+        double avg = sum / num.length;
         System.out.println("The average of elements in the given array is : " + avg);
     }
 }
