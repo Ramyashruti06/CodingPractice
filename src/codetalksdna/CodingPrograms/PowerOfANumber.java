@@ -14,6 +14,5 @@ public class PowerOfANumber {
             power = power * base;
         }
         System.out.println("The power of given number is : " + power);
-
     }
 }

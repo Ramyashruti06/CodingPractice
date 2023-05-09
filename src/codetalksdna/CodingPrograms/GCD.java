@@ -17,6 +17,5 @@ public class GCD {
 
         }
         System.out.println("The GCD of " + a + " and " + b + " is " + gcd);
-
     }
 }
