@@ -5,8 +5,8 @@ public class PrintTableUsingWhileLoop {
         int i = 1;
         int table = 10;
         while (i <= table) {
-            System.out.print(i * table +" ");
-            i++;
+            System.out.print(i * table + " ");
+            ++i;
         }
     }
 }
