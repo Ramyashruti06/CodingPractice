@@ -1,7 +1,6 @@
 package codetalksdna.Loops;
 
 public class PrintTheSumUsingDoWhileLoop {
-    // 1 to 100
     public static void main(String[] args) {
         int lastNumber = 100;
         int sum = 0;
