@@ -6,13 +6,16 @@ import codetalksdna.ArithmeticOperationsPrograms.CountOfFilesInArithmeticOperati
 import codetalksdna.ArraysPrograms.OneDArrays.CountOfFilesIn1DArray;
 import codetalksdna.ArraysPrograms.TwoDArrays.CountOfFilesIn2DArray;
 import codetalksdna.CodingPrograms.CountOfFilesInCodingPrograms;
+import codetalksdna.Collections.CountOfProgramsInCollections;
 import codetalksdna.ConstructorPrograms.CountOfFilesInConstructor;
 import codetalksdna.EncapsulationPrograms.CountOfFilesInEncapsulation;
-import codetalksdna.ExceptionClassPrograms.CountOfFilesInExceptionClass;
+import codetalksdna.ExceptionClassPrograms.UnCheckedException.CountOfFilesInExceptionClass;
 import codetalksdna.IncrementDecrementOperator.CountOfProgramInIncrementDecrementOperator;
 import codetalksdna.InheritancePrograms.CountOfProgramInInheritance;
 import codetalksdna.Loops.CountOfProgramInLoops;
 import codetalksdna.PolymorphismPrograms.CountOfProgramInPolymorohism;
+import codetalksdna.StringClassMethodsPrograms.CountOfProgramsInStringClassPrograms;
+import codetalksdna.SuperKeyword.CountOfProgramsInSuperKeyword;
 import codetalksdna.UserInputPrograms.CountOfProgramsInUserInputPrograms;
 import codetalksdna.fileIO.CountOfFilesInFileIO;
 
@@ -33,8 +36,10 @@ public class CountOfProgramsDone {
         CountOfProgramInPolymorohism countOfProgramInPolymorohism = new CountOfProgramInPolymorohism();
         CountOfProgramsInUserInputPrograms countOfProgramsInUserInputPrograms = new CountOfProgramsInUserInputPrograms();
         CountOfProgramInIncrementDecrementOperator countOfProgramInIncrementDecrementOperator = new CountOfProgramInIncrementDecrementOperator();
-
-        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInAbstractionUsingInterface.returnFileCount(), countOfFilesInArithmeticOperations.returnFileCount(), countOfFilesIn1DArray.returnFileCount(), countOfFilesIn2DArray.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInConstructor.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInExceptionClass.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInLoops.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfProgramsInUserInputPrograms.returnFileCount(), countOfProgramInIncrementDecrementOperator.returnFileCount()};
+        CountOfProgramsInCollections countOfProgramsInCollections = new CountOfProgramsInCollections();
+        CountOfProgramsInSuperKeyword countOfProgramsInSuperKeyword = new CountOfProgramsInSuperKeyword();
+        CountOfProgramsInStringClassPrograms countOfProgramsInStringClassPrograms = new CountOfProgramsInStringClassPrograms();
+        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInAbstractionUsingInterface.returnFileCount(), countOfFilesInArithmeticOperations.returnFileCount(), countOfFilesIn1DArray.returnFileCount(), countOfFilesIn2DArray.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInConstructor.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInExceptionClass.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInLoops.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfProgramsInUserInputPrograms.returnFileCount(), countOfProgramInIncrementDecrementOperator.returnFileCount(),countOfProgramsInCollections.returnFileCount(),countOfProgramsInSuperKeyword.returnFileCount(),countOfProgramsInStringClassPrograms.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
 

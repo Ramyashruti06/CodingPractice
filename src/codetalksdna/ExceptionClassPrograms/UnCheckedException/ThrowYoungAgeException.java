@@ -1,4 +1,4 @@
-package codetalksdna.ExceptionClassPrograms;
+package codetalksdna.ExceptionClassPrograms.UnCheckedException;
 
 import java.util.Scanner;
 

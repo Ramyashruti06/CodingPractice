@@ -1,4 +1,4 @@
-package codetalksdna.ExceptionClassPrograms;
+package codetalksdna.ExceptionClassPrograms.UnCheckedException;
 
 public class YoungAgeException extends RuntimeException {
 
