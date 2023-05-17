@@ -5,6 +5,8 @@ public class CallCarAndScootyClass {
         Scooty scooty = new Scooty();
         Car car = new Car();
         scooty.start();
+        scooty.tyres();
         car.start();
+        car.tyres();
     }
 }
