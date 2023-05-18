@@ -1,10 +1,13 @@
 package codetalksdna.InheritancePrograms;
 
+import codetalksdna.PathOfProgram.PathOfProgram;
+
 import java.io.File;
 
 public class CountOfProgramInInheritance {
     public int returnFileCount() {
-        File file = new File("C:\\Users\\nbhushan\\Documents\\Intellij-Idea-Projects\\CodingPractice\\src\\codetalksdna\\InheritancePrograms\\");
+        PathOfProgram pathOfProgram =  new PathOfProgram();
+        File file = new File(pathOfProgram.getPath()+"\\src\\codetalksdna\\InheritancePrograms\\");
         return file.listFiles().length;
     }
 }

@@ -1,10 +1,13 @@
 package codetalksdna.Collections;
 
+import codetalksdna.PathOfProgram.PathOfProgram;
+
 import java.io.File;
 
 public class CountOfProgramsInCollections {
     public int returnFileCount() {
-        File file = new File("C:\\Users\\nbhushan\\Documents\\Intellij-Idea-Projects\\CodingPractice\\src\\codetalksdna\\Collections\\");
+        PathOfProgram pathOfProgram =  new PathOfProgram();
+        File file = new File(pathOfProgram.getPath()+"\\src\\codetalksdna\\Collections\\");
         return file.listFiles().length;
     }
 }

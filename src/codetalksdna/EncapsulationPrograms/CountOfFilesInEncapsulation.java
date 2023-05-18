@@ -1,10 +1,13 @@
 package codetalksdna.EncapsulationPrograms;
 
+import codetalksdna.PathOfProgram.PathOfProgram;
+
 import java.io.File;
 
 public class CountOfFilesInEncapsulation {
     public int returnFileCount() {
-        File file = new File("C:\\Users\\nbhushan\\Documents\\Intellij-Idea-Projects\\CodingPractice\\src\\codetalksdna\\EncapsulationPrograms\\");
+        PathOfProgram pathOfProgram =  new PathOfProgram();
+        File file = new File(pathOfProgram.getPath()+"\\src\\codetalksdna\\EncapsulationPrograms\\");
         return file.listFiles().length;
     }
 }

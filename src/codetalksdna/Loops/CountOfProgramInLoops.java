@@ -1,10 +1,13 @@
 package codetalksdna.Loops;
 
+import codetalksdna.PathOfProgram.PathOfProgram;
+
 import java.io.File;
 
 public class CountOfProgramInLoops {
     public int returnFileCount() {
-        File file = new File("C:\\Users\\nbhushan\\Documents\\Intellij-Idea-Projects\\CodingPractice\\src\\codetalksdna\\Loops\\");
+        PathOfProgram pathOfProgram = new PathOfProgram();
+        File file = new File(pathOfProgram.getPath()+"\\src\\codetalksdna\\Loops\\");
         return file.listFiles().length;
     }
 }

@@ -1,10 +1,13 @@
 package codetalksdna.IncrementDecrementOperator;
 
+import codetalksdna.PathOfProgram.PathOfProgram;
+
 import java.io.File;
 
 public class CountOfProgramInIncrementDecrementOperator {
     public int returnFileCount() {
-        File file = new File("C:\\Users\\nbhushan\\Documents\\Intellij-Idea-Projects\\CodingPractice\\src\\codetalksdna\\IncrementDecrementOperator\\");
+        PathOfProgram pathOfProgram =  new PathOfProgram();
+        File file = new File(pathOfProgram.getPath()+"\\src\\codetalksdna\\IncrementDecrementOperator\\");
         return file.listFiles().length;
     }
 }
