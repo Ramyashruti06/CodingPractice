@@ -1,7 +1,10 @@
 package codetalksdna.PathOfProgram;
 
 public class PathOfProgram {
-    public String getPath(){
-        return "C:\\Users\\nbhushan\\Documents\\Coding-Projects\\CodingPractice\\";
+    String path = "D:\\Intellij-Idea-Projects\\CodingPractice\\";
+
+    //    String path = "";
+    public String getPath() {
+        return path;
     }
 }
