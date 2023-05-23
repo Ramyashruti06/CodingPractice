@@ -1,12 +1,19 @@
 package codetalksdna.Collections;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListExample {
     public static void main(String[] args) {
-        ArrayList arrayList = new ArrayList<>();
-        arrayList.add("welcome");
-        arrayList.add(1);
-        System.out.println(arrayList);
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(20);
+        integerList.add(30);
+        integerList.add(50);
+        integerList.add(60);
+
+        System.out.println(integerList.size());
+        System.out.println(integerList.get(2));
+        System.out.println(integerList.remove(2));
+        System.out.println(integerList);
     }
 }
