@@ -12,5 +12,6 @@ public class PrintTables {
             int table = number * i;
             System.out.println(table);
         }
+
     }
 }
