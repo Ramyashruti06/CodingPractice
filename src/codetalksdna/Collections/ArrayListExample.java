@@ -1,7 +1,9 @@
 package codetalksdna.Collections;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ArrayListExample {
     public static void main(String[] args) {
@@ -15,5 +17,14 @@ public class ArrayListExample {
         System.out.println(integerList.get(2));
         System.out.println(integerList.remove(2));
         System.out.println(integerList);
+
+        List<String> stringList = new ArrayList<>();
+        stringList.add("Nitesh");
+        stringList.add("Nitesh");
+        stringList.add("Shruti");
+        stringList.add("Sakhi");
+
+        System.out.println(stringList.size());
+        System.out.println(stringList);
     }
 }

@@ -13,4 +13,9 @@ public class Student {
         this.rollNo = rollNo;
         this.classSection = classSection;
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

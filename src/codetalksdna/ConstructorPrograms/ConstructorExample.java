@@ -9,5 +9,7 @@ public class ConstructorExample {
 
         //Example Of No-Arg Constructor.
         Student student1 = new Student();
+        System.out.println(student1);
+        System.out.println(student1.hashCode());
     }
 }
