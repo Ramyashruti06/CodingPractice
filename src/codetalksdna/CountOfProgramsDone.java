@@ -41,7 +41,7 @@ public class CountOfProgramsDone {
         CountOfProgramsInSuperKeyword countOfProgramsInSuperKeyword = new CountOfProgramsInSuperKeyword();
         CountOfProgramsInStringClassPrograms countOfProgramsInStringClassPrograms = new CountOfProgramsInStringClassPrograms();
         CountOfProgramsInPrimitiveToClass countOfProgramsInPrimitiveToClass = new CountOfProgramsInPrimitiveToClass();
-        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInAbstractionUsingInterface.returnFileCount(), countOfFilesInArithmeticOperations.returnFileCount(), countOfFilesIn1DArray.returnFileCount(), countOfFilesIn2DArray.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInConstructor.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInExceptionClass.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInLoops.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfProgramsInUserInputPrograms.returnFileCount(), countOfProgramInIncrementDecrementOperator.returnFileCount(),countOfProgramsInCollections.returnFileCount(),countOfProgramsInSuperKeyword.returnFileCount(),countOfProgramsInStringClassPrograms.returnFileCount(),countOfProgramsInPrimitiveToClass.returnFileCount()};
+        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInAbstractionUsingInterface.returnFileCount(), countOfFilesInArithmeticOperations.returnFileCount(), countOfFilesIn1DArray.returnFileCount(), countOfFilesIn2DArray.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInConstructor.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInExceptionClass.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInLoops.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfProgramsInUserInputPrograms.returnFileCount(), countOfProgramInIncrementDecrementOperator.returnFileCount(), countOfProgramsInCollections.returnFileCount(), countOfProgramsInSuperKeyword.returnFileCount(), countOfProgramsInStringClassPrograms.returnFileCount(), countOfProgramsInPrimitiveToClass.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
 
@@ -50,6 +50,7 @@ public class CountOfProgramsDone {
         for (int file : files) {
             sum = sum + file;
         }
+        System.out.println("Total Number of Packages" + "::" + files.length);
         System.out.println("Total Number of Programs Done till Now" + "::" + sum);
     }
 }
