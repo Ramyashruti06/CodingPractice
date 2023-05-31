@@ -28,19 +28,20 @@ public class CountOfProgramsDone {
         CountOfFilesIn1DArray countOfFilesIn1DArray = new CountOfFilesIn1DArray();
         CountOfFilesIn2DArray countOfFilesIn2DArray = new CountOfFilesIn2DArray();
         CountOfFilesInCodingPrograms countOfFilesInCodingPrograms = new CountOfFilesInCodingPrograms();
+        CountOfProgramsInCollections countOfProgramsInCollections = new CountOfProgramsInCollections();
         CountOfFilesInConstructor countOfFilesInConstructor = new CountOfFilesInConstructor();
         CountOfFilesInEncapsulation countOfFilesInEncapsulation = new CountOfFilesInEncapsulation();
         CountOfFilesInExceptionClass countOfFilesInExceptionClass = new CountOfFilesInExceptionClass();
         CountOfFilesInFileIO countOfFilesInFileIO = new CountOfFilesInFileIO();
+        CountOfProgramInIncrementDecrementOperator countOfProgramInIncrementDecrementOperator = new CountOfProgramInIncrementDecrementOperator();
         CountOfProgramInInheritance countOfProgramInInheritance = new CountOfProgramInInheritance();
         CountOfProgramInLoops countOfProgramInLoops = new CountOfProgramInLoops();
         CountOfProgramInPolymorohism countOfProgramInPolymorohism = new CountOfProgramInPolymorohism();
-        CountOfProgramsInUserInputPrograms countOfProgramsInUserInputPrograms = new CountOfProgramsInUserInputPrograms();
-        CountOfProgramInIncrementDecrementOperator countOfProgramInIncrementDecrementOperator = new CountOfProgramInIncrementDecrementOperator();
-        CountOfProgramsInCollections countOfProgramsInCollections = new CountOfProgramsInCollections();
-        CountOfProgramsInSuperKeyword countOfProgramsInSuperKeyword = new CountOfProgramsInSuperKeyword();
-        CountOfProgramsInStringClassPrograms countOfProgramsInStringClassPrograms = new CountOfProgramsInStringClassPrograms();
         CountOfProgramsInPrimitiveToClass countOfProgramsInPrimitiveToClass = new CountOfProgramsInPrimitiveToClass();
+        CountOfProgramsInStringClassPrograms countOfProgramsInStringClassPrograms = new CountOfProgramsInStringClassPrograms();
+        CountOfProgramsInSuperKeyword countOfProgramsInSuperKeyword = new CountOfProgramsInSuperKeyword();
+        CountOfProgramsInUserInputPrograms countOfProgramsInUserInputPrograms = new CountOfProgramsInUserInputPrograms();
+
         int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInAbstractionUsingInterface.returnFileCount(), countOfFilesInArithmeticOperations.returnFileCount(), countOfFilesIn1DArray.returnFileCount(), countOfFilesIn2DArray.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInConstructor.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInExceptionClass.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInLoops.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfProgramsInUserInputPrograms.returnFileCount(), countOfProgramInIncrementDecrementOperator.returnFileCount(), countOfProgramsInCollections.returnFileCount(), countOfProgramsInSuperKeyword.returnFileCount(), countOfProgramsInStringClassPrograms.returnFileCount(), countOfProgramsInPrimitiveToClass.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
