@@ -13,6 +13,5 @@ public class QuotientRemainder {
         System.out.println("The quotient is :" + + quotient);
         int remainder = dividend % divisor;
         System.out.println("The remainder is :" + + remainder);
-
     }
 }

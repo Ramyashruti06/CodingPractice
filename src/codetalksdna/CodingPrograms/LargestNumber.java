@@ -17,6 +17,5 @@ public class LargestNumber {
             System.out.println("The largest number among 3 numbers is : " + n2);
         } else
             System.out.println("The largest number among 3 numbers is : " + n3);
-
     }
 }
