@@ -53,6 +53,6 @@ public class CountOfProgramsDone {
         }
         System.out.println("Programs in Coding Practice" + " " + countOfFilesInCodingPrograms.returnFileCount());
         System.out.println("Total Number of Packages" + "::" + files.length);
-        System.out.println("Total Number of Programs Done till Now" + "::" + sum);
+        System.out.println("Total Number of Programs Done till Now" + "::" + (sum - files.length));
     }
 }
