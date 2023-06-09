@@ -1,4 +1,4 @@
-package codetalksdna.Collections;
+package codetalksdna.Collections.ListImpl;
 
 import java.util.ArrayList;
 

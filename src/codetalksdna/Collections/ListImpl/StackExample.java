@@ -1,11 +1,11 @@
-package codetalksdna.Collections;
+package codetalksdna.Collections.ListImpl;
 
-import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
-public class LinkedListExample {
+public class StackExample {
     public static void main(String[] args) {
-        List<Integer> integerList = new LinkedList<>();
+        List<Integer> integerList = new Stack<>();
         integerList.add(20);
         integerList.add(30);
         integerList.add(50);
@@ -17,3 +17,4 @@ public class LinkedListExample {
         System.out.println(integerList);
     }
 }
+

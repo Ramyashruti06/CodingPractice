@@ -1,4 +1,4 @@
-package codetalksdna.Collections;
+package codetalksdna.Collections.SetImpl;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,14 +6,15 @@ import java.util.Set;
 public class HashSetExample {
     public static void main(String[] args) {
         Set<String> stringSet = new HashSet<>();
-        stringSet.add("Nitesh");
+        stringSet.add("Sakhi");
+        stringSet.add("Kumar");
         stringSet.add("Nitesh");
         stringSet.add("Shruti");
-        stringSet.add("Sakhi");
-        stringSet.add(null);
+        stringSet.add("Nitesh");
+        stringSet.add("Bhushan");
 
         System.out.println(stringSet.size());
-        System.out.println(stringSet.remove(2));
+        System.out.println(stringSet.contains("Shruti"));
         System.out.println(stringSet);
     }
 }
