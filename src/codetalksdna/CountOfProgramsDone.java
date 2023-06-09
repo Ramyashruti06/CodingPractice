@@ -15,8 +15,10 @@ import codetalksdna.ExceptionClassPrograms.UnCheckedException.CountOfFilesInExce
 import codetalksdna.IncrementDecrementOperator.CountOfProgramInIncrementDecrementOperator;
 import codetalksdna.InheritancePrograms.CountOfProgramInInheritance;
 import codetalksdna.Loops.CountOfProgramInLoops;
+import codetalksdna.Map.CountOfProgramsInMap;
 import codetalksdna.PolymorphismPrograms.CountOfProgramInPolymorohism;
 import codetalksdna.PrimitiveToClass.CountOfProgramsInPrimitiveToClass;
+import codetalksdna.Queue.CountOfProgramsInQueue;
 import codetalksdna.StringClassMethodsPrograms.CountOfProgramsInStringClassPrograms;
 import codetalksdna.SuperKeyword.CountOfProgramsInSuperKeyword;
 import codetalksdna.UserInputPrograms.CountOfProgramsInUserInputPrograms;
@@ -40,13 +42,15 @@ public class CountOfProgramsDone {
         CountOfProgramInIncrementDecrementOperator countOfProgramInIncrementDecrementOperator = new CountOfProgramInIncrementDecrementOperator();
         CountOfProgramInInheritance countOfProgramInInheritance = new CountOfProgramInInheritance();
         CountOfProgramInLoops countOfProgramInLoops = new CountOfProgramInLoops();
+        CountOfProgramsInMap countOfProgramsInMap = new CountOfProgramsInMap();
         CountOfProgramInPolymorohism countOfProgramInPolymorohism = new CountOfProgramInPolymorohism();
         CountOfProgramsInPrimitiveToClass countOfProgramsInPrimitiveToClass = new CountOfProgramsInPrimitiveToClass();
+        CountOfProgramsInQueue countOfProgramsInQueue = new CountOfProgramsInQueue();
         CountOfProgramsInStringClassPrograms countOfProgramsInStringClassPrograms = new CountOfProgramsInStringClassPrograms();
         CountOfProgramsInSuperKeyword countOfProgramsInSuperKeyword = new CountOfProgramsInSuperKeyword();
         CountOfProgramsInUserInputPrograms countOfProgramsInUserInputPrograms = new CountOfProgramsInUserInputPrograms();
 
-        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInAbstractionUsingInterface.returnFileCount(), countOfFilesInArithmeticOperations.returnFileCount(), countOfFilesIn1DArray.returnFileCount(), countOfFilesIn2DArray.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInConstructor.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInExceptionClass.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInLoops.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfProgramsInUserInputPrograms.returnFileCount(), countOfProgramInIncrementDecrementOperator.returnFileCount(), countOfProgramsInCollections.returnFileCount(), countOfProgramsInSuperKeyword.returnFileCount(), countOfProgramsInStringClassPrograms.returnFileCount(), countOfProgramsInPrimitiveToClass.returnFileCount(), countOfFilesInSet.returnFileCount(), countOfFilesInList.returnFileCount()};
+        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInAbstractionUsingInterface.returnFileCount(), countOfFilesInArithmeticOperations.returnFileCount(), countOfFilesIn1DArray.returnFileCount(), countOfFilesIn2DArray.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInConstructor.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInExceptionClass.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInLoops.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfProgramsInUserInputPrograms.returnFileCount(), countOfProgramInIncrementDecrementOperator.returnFileCount(), countOfProgramsInCollections.returnFileCount(), countOfProgramsInSuperKeyword.returnFileCount(), countOfProgramsInStringClassPrograms.returnFileCount(), countOfProgramsInPrimitiveToClass.returnFileCount(), countOfFilesInSet.returnFileCount(), countOfFilesInList.returnFileCount(), countOfProgramsInMap.returnFileCount(), countOfProgramsInQueue.returnFileCount()};
         sumOfProgramsWeDidTillNow(files, countOfFilesInCodingPrograms);
     }
 
@@ -55,8 +59,9 @@ public class CountOfProgramsDone {
         for (int file : files) {
             sum = sum + file;
         }
+
         System.out.println("Programs in Coding Practice" + " " + countOfFilesInCodingPrograms.returnFileCount());
         System.out.println("Total Number of Packages" + "::" + files.length);
-        System.out.println("Total Number of Programs Done till Now" + "::" + (sum - files.length));
+        System.out.println("Total Number of Programs Done till Now" + "::" + (sum));
     }
 }
