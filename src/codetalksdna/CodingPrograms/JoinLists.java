@@ -1,24 +1,34 @@
 package codetalksdna.CodingPrograms;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
 public class JoinLists {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        List<Integer> mergedList = new ArrayList<>();
         System.out.println("Enter the values of lists : ");
-        List<Integer> list = new ArrayList<Integer>();
-        int list1, list2, list3, Joined;
-        list1 = sc.nextInt();
-        list2 = sc.nextInt();
-        list3 = sc.nextInt();
-        Joined = sc.nextInt();
-       /* Joined.addAll(list1);
-        Joined.addAll(list2);
-        Joined.addAll(list3);*/
-        System.out.println("The value of List1 is: " + list);
-        System.out.println("The value of List2 is: " + list2);
-        System.out.println("The value of List3 is: " + list3);
-        System.out.println("The value of Joined is: " + Joined);
+        List<Integer> firstList = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Enter the" + " " + (i + 1) + " " + "elements in firstList");
+            int numbers = scanner.nextInt();
+            firstList.add(numbers);
+        }
+        System.out.println("The First List" + " " + firstList);
 
+        List<Integer> secondList = new ArrayList<>();
+        Scanner scannerList = new Scanner(System.in);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Enter the" + " " + (i + 1) + " " + "elements in secondList");
+            int numbers = scannerList.nextInt();
+            secondList.add(numbers);
+        }
+        System.out.println("The Second List" + " " + firstList);
+
+        mergedList.addAll(firstList);
+        mergedList.addAll(secondList);
+
+        System.out.println("The value of new merged List is: " + mergedList);
     }
 }

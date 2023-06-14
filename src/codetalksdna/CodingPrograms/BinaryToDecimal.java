@@ -17,10 +17,8 @@ public class BinaryToDecimal {
             n = n / 10;
             d += remainder * Math.pow(2, i);
             i++;
-
         }
         return d;
-
     }
 }
 
