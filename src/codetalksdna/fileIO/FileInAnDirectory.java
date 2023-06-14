@@ -3,11 +3,11 @@ package codetalksdna.fileIO;
 import java.io.File;
 
 public class FileInAnDirectory {
-    String sakhiPath = "C:\\Users\\kramy\\IdeaProjects\\";
+    static String sakhiPath = "C:\\Users\\kramy\\IdeaProjects\\";
     static String niteshPath = "C:\\Users\\nbhushan\\Documents\\Intellij-Idea-Projects\\";
 
     public static void main(String[] args) {
-        String path = niteshPath;
+        String path = sakhiPath;
         File f2 = new File(path + "CodingPractice\\src\\codetalksdna\\AbstractionUsingAbstractClassPrograms");
         int l2 = f2.listFiles().length;
         System.out.println("Number of files in 2nd folder are :" + " " + l2);
