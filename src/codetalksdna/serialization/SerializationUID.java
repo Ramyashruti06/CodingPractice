@@ -9,15 +9,16 @@ class SerializationUIDExample implements Serializable {
 
 public class SerializationUID {
     private static final long serialVersionUID = 4L;
+
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        SerializationUIDExample serializationTransientKeyword = new SerializationUIDExample();
+        SerializationUIDExample serializationUIDExample = new SerializationUIDExample();
         FileOutputStream fileOutputStream = new FileOutputStream("abc.ser");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-        objectOutputStream.writeObject(serializationTransientKeyword);
+        objectOutputStream.writeObject(serializationUIDExample);
 
         FileInputStream fileInputStream = new FileInputStream("abc.ser");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-        codetalksdna.serialization.SerializationTransientKeyword serializationTransientKeyword1 = (codetalksdna.serialization.SerializationTransientKeyword) objectInputStream.readObject();
-        System.out.println(serializationTransientKeyword1.userName + " " + serializationTransientKeyword1.password);
+        SerializationUIDExample serializationUIDExample1 = (SerializationUIDExample) objectInputStream.readObject();
+        System.out.println(serializationUIDExample1.userName + " " + serializationUIDExample1.password);
     }
 }
