@@ -12,7 +12,8 @@ public class CompoundInterest {
         double rate = sc.nextDouble();
         System.out.print("Enter the time: ");
         double time = sc.nextDouble();
-        System.out.print("Enter number of times interest is compounded: ");
-        int number = sc.nextInt();
+
+        double compound_interest = principal * (Math.pow((1 + rate / 100), time)) - principal;
+        System.out.println("The Compound Interest is : " + compound_interest);
     }
 }
