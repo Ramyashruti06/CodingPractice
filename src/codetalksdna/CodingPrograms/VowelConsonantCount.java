@@ -12,16 +12,12 @@ public class VowelConsonantCount {
             char c = str.charAt(i);
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
                 vowels++;
-
             } else if ((c >= 'a' && c <= 'z')) {
                 consonants++;
-
             }
         }
         System.out.println("The number of vowels in the string are : " + vowels);
         System.out.println("The number of consonants in the string are : " + consonants);
-
-
     }
 }
 

@@ -8,7 +8,6 @@ public class SwapNumbers {
         temp = number1;
         number1 = number2;
         number2 = temp;
-
         System.out.println(number1 + " " + number2);
     }
 }

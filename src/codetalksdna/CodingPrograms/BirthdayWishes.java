@@ -5,26 +5,24 @@ import java.time.Month;
 import java.util.Scanner;
 
 public class BirthdayWishes {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Date of Birth and Moth: ");
+        System.out.println("Enter the Date of Birth: ");
         int birthDate = sc.nextInt();
+        System.out.println("Enter the Month of Birth: ");
         int birthMonth = sc.nextInt();
 
-        // get current date
         LocalDate currentDate = LocalDate.now();
         System.out.println("Todays Date: " + currentDate);
 
-        // get current date and month
         int date = currentDate.getDayOfMonth();
         Month month = currentDate.getMonth();
+        int months = month.getValue();
 
-
-        /*if(date == birthDate && Month == birthMonth) {
+        if (date == birthDate && months == birthMonth) {
             System.out.println("HAPPY BIRTHDAY TO YOU !!");
-        }
-        else {
+        } else {
             System.out.println("Today is not my birthday.");
-        }*/
+        }
     }
 }
