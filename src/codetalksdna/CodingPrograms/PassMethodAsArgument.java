@@ -6,7 +6,7 @@ public class PassMethodAsArgument {
     }
     public void square(int num) {
         int result = num * num;
-        System.out.println(result);    // prints 576
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
