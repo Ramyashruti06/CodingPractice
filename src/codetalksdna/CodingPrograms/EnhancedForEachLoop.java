@@ -3,7 +3,7 @@ package codetalksdna.CodingPrograms;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StreamAPI {
+public class EnhancedForEachLoop {
     public static void main(String[] args) {
         List<Integer> integerList = new ArrayList<>();
         integerList.add(20);
@@ -11,6 +11,13 @@ public class StreamAPI {
         integerList.add(50);
         integerList.add(60);
 
-        integerList.stream().forEach(System.out::println);
+        //Index For Loop
+        for (int i = 0; i < integerList.size(); i++) {
+            System.out.println(integerList.get(i));
+        }
+        //Enhanced For Loop
+        for (Integer integer : integerList) {
+            System.out.println(integer);
+        }
     }
 }
