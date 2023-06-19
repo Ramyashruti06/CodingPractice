@@ -2,18 +2,15 @@ package codetalksdna.CodingPrograms;
 
 interface Vehicle {
     void start();
-
     default void stop() {
         System.out.println("Stopping the Car");
     }
 }
 
 class Cars implements Vehicle {
-
     @Override
     public void start() {
         System.out.println("Car should start");
-
     }
 }
 

@@ -14,7 +14,6 @@ public class GCD {
             if (a % i == 0 && b % i == 0) {
                 gcd = i;
             }
-
         }
         System.out.println("The GCD of " + a + " and " + b + " is " + gcd);
     }

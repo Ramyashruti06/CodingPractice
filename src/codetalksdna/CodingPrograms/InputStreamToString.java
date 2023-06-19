@@ -1,7 +1,21 @@
 package codetalksdna.CodingPrograms;
 
-public class InputStreamToString {
-    public static void main(String[] args) {
+import java.io.InputStream;
+import java.util.Scanner;
 
+public class InputStreamToString {
+    public static String convertToString(InputStream inputStream) {
+        if (inputStream == null) {
+            return null;
+        }
+        Scanner scanner = new Scanner(inputStream).useDelimiter("\\A");
+        return scanner.hasNext() ? scanner.next() : "";
+    }
+
+    public static void main(String[] args) {
+        String content = "Hello, world!";
+        InputStream inputStream = new java.io.ByteArrayInputStream(content.getBytes());
+        String convertedString = convertToString(inputStream);
+        System.out.println(convertedString);
     }
 }

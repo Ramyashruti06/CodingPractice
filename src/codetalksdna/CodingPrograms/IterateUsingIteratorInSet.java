@@ -12,7 +12,5 @@ public class IterateUsingIteratorInSet {
         integers.add(71);
         integers.add(99);
         System.out.println("The elements in the set are: " + integers);
-
-
     }
 }

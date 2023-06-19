@@ -1,23 +1,13 @@
 package codetalksdna.CodingPrograms;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-}
-
-public class PreorderTreeTraversal {
-    public static void preorderTraversal(TreeNode root) {
+public class PostorderTraversal {
+    public static void postorderTraversal(TreeNode root) {
         if (root == null) {
             return;
         }
+        postorderTraversal(root.left);
+        postorderTraversal(root.right);
         System.out.print(root.val + " ");
-        preorderTraversal(root.left);
-        preorderTraversal(root.right);
     }
 
     public static void main(String[] args) {
@@ -26,7 +16,8 @@ public class PreorderTreeTraversal {
         root.right = new TreeNode(3);
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-        System.out.println("Preorder Traversal:");
-        preorderTraversal(root);
+
+        System.out.println("Postorder Traversal:");
+        postorderTraversal(root);
     }
 }
