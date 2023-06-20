@@ -5,8 +5,8 @@ public class ReverseWord {
         String name = "Nitesh I am happy";
         String reversedWord = "";
         char[] chars = name.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            reversedWord = chars[i] + reversedWord;
+        for (char aChar : chars) {
+            reversedWord = aChar + reversedWord;
         }
         System.out.println(reversedWord);
     }
