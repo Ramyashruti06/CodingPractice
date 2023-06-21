@@ -7,7 +7,7 @@ public class MiddleElementOfLinkedList {
     public static void main(String[] args) {
         Random random = new Random();
         LinkedList<Integer> list = new LinkedList<>();
-        for (int i = 0; i < random.nextInt(1,10); i++) {
+        for (int i = 0; i < random.nextInt(); i++) {
             list.add(random.nextInt(10));
         }
         System.out.println(list);

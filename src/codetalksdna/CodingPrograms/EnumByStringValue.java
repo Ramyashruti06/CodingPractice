@@ -26,8 +26,8 @@ public class EnumByStringValue {
         }
     }
 
-    public class EnumByStringValueExample {
-        public static void main(String[] args) {
+    public static class EnumByStringValueExample {
+                public static void main(String[] args) {
             String value = "Value 2";
             MyEnum enumValue = MyEnum.fromStringValue(value);
 
