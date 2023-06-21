@@ -1,7 +1,5 @@
 package codetalksdna.CodingPrograms;
 
-import java.util.Scanner;
-
 public class CharFrequency {
     public static void main(String[] args) {
         String str = "Nitesh";

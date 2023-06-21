@@ -9,7 +9,10 @@ public class InputStreamToString {
             return null;
         }
         Scanner scanner = new Scanner(inputStream).useDelimiter("\\A");
-        return scanner.hasNext() ? scanner.next() : "";
+        if (scanner.hasNext()) {
+            return scanner.next();
+        }
+        return "";
     }
 
     public static void main(String[] args) {
