@@ -16,10 +16,10 @@ import codetalksdna.ExceptionClassPrograms.UnCheckedException.CountOfFilesInUnCh
 import codetalksdna.IncrementDecrementOperator.CountOfProgramInIncrementDecrementOperator;
 import codetalksdna.InheritancePrograms.CountOfProgramInInheritance;
 import codetalksdna.Loops.CountOfProgramInLoops;
-import codetalksdna.Map.CountOfProgramsInMap;
+import codetalksdna.Collections.Map.CountOfProgramsInMap;
 import codetalksdna.PolymorphismPrograms.CountOfProgramInPolymorohism;
 import codetalksdna.PrimitiveToClass.CountOfProgramsInPrimitiveToClass;
-import codetalksdna.Queue.CountOfProgramsInQueue;
+import codetalksdna.Collections.Queue.CountOfProgramsInQueue;
 import codetalksdna.StringClassMethodsPrograms.CountOfProgramsInStringClassPrograms;
 import codetalksdna.SuperKeyword.CountOfProgramsInSuperKeyword;
 import codetalksdna.UserInputPrograms.CountOfProgramsInUserInputPrograms;

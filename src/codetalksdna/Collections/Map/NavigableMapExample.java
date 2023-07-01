@@ -1,7 +1,6 @@
-package codetalksdna.Map;
+package codetalksdna.Collections.Map;
 
 import java.util.NavigableMap;
-import java.util.SortedMap;
 import java.util.TreeMap;
 
 public class NavigableMapExample {

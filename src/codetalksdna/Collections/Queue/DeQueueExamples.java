@@ -1,4 +1,4 @@
-package codetalksdna.Queue;
+package codetalksdna.Collections.Queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

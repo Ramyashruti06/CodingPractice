@@ -1,4 +1,4 @@
-package codetalksdna.Map;
+package codetalksdna.Collections.Map;
 
 import java.util.SortedMap;
 import java.util.TreeMap;
