@@ -1,4 +1,4 @@
-package codetalksdna.CodingPrograms;
+package codetalksdna.java8Features;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

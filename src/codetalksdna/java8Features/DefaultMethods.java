@@ -1,4 +1,4 @@
-package codetalksdna.CodingPrograms;
+package codetalksdna.java8Features;
 
 interface Vehicle {
     void start();

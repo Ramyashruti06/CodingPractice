@@ -1,4 +1,4 @@
-package codetalksdna.CodingPrograms;
+package codetalksdna.java8Features;
 
 import java.util.ArrayList;
 import java.util.List;
